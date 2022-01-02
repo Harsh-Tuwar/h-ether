@@ -9,8 +9,9 @@ const Navbar = () => {
 
 	return (
 		<nav className='w-full flex md:justify-center justify-between items-center p-4'>
-			<div className='md:flex-[0.5] flex-initial justify-center items-center'>
+			<div className='md:flex-[0.5] flex-initial justify-center flex items-center px-30'>
 				<img src={logo} alt='logo' className='w-24 h-24 cursor-pointer' />
+				<div className='text-white font-bold text-3xl pr-20 text-gradient'>WECRYPT</div>
 			</div>
 			<ul className='text-white md:flex hidden list-none flex-row justify-between items-center flex-initial'>
 				{['Market', 'Exchange', 'Tutorials', 'Wallets'].map((item, index) =>

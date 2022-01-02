@@ -1,1 +1,1 @@
-# H-Ether
+# WeCrypt
