@@ -17,7 +17,7 @@ const Transactions = () => {
 				}
 
 				<div className='flex flex-wrap justify-center items-center mt-10'>
-					{transactions.map((transaction, index) => <TransactionCard key={index} {...transaction} />)}
+					{transactions ? transactions.map((transaction, index) => <TransactionCard key={index} {...transaction} />) : <span className='text-white text-semibold text-center'>Nothing to show here!</span>}
 				</div>
 			</div>
 		</div>
