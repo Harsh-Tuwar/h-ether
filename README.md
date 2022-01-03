@@ -7,11 +7,9 @@ Web 3.0 has the potential to change the internet as we know it, forever. You're 
 With a stunning design, connected to the blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, writing solidity code, and much more, WeCrypt is just a basic #Web3 #Blockchain app that you can develop to learn more about the web3 tech.
 
 ## ⚠️ WARNING ⚠️
----
 This is a test app and only supports ETH testnet (ropsten). Please don't transafer any real funds as it will be lost and the person who has done it will be responsible for that.
 
 ## 🧑🏼‍💻 Technologies used
----
 - Web 3.0
 - ReactJS
 - Context API
@@ -26,12 +24,10 @@ This is a test app and only supports ETH testnet (ropsten). Please don't transaf
 
 
 ## 🚰 ETH Ropstem Faucets
----
 - [🚰 1](https://faucet.egorfine.com)
 - [🚰 2](https://faucet.dimensions.network)
 
 ## ⬇️ Installation
----
 
 ```sh
 # clone repository
