@@ -10,7 +10,7 @@ import { shortenAddress } from '../utils/shortenAddress';
 const commonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
 
 const Welcome = () => {
-	const { connectWallet, currentAccount, formData, sendTransaction, handleChange } = useContext(TransactionContext);
+	const { connectWallet, currentAccount, formData, sendTransaction, handleChange, loading } = useContext(TransactionContext);
 
 	const handleSubmit = (e) => {
 		const { addressTo, amount, keyword, message } = formData;
@@ -84,7 +84,7 @@ const Welcome = () => {
 						<Input placeholder="Enter Message" name="message" type="text" handleChange={handleChange} />
 						
 						<div className='h-[1px] w-full bg-grey-400 my-2' />
-						{false ?
+						{loading ?
 							<Loader /> :
 							<button
 								type='button'

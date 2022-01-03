@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Harsh-Tuwar/h-ether.git"
+    "url": "git+https://github.com/Harsh-Tuwar/wecrypt"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Harsh-Tuwar/h-ether/issues"
+    "url": "https://github.com/Harsh-Tuwar/wecrypt/issues"
   },
-  "homepage": "https://github.com/Harsh-Tuwar/h-ether#readme"
+  "homepage": "https://github.com/Harsh-Tuwar/wecrypt#readme"
 }
